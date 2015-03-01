@@ -1,5 +1,5 @@
 {
-   "name": "Spotify Web Player Hotkeys",
+   "name": "Spotify Web Player Hotkeys -- EXTENDED",
    "description": "Add keyboard shortcuts to pause, play next and previous tracks in Spotify",
    "version": "0.2",
    "manifest_version": 2,
@@ -24,6 +24,10 @@
       "previous": {
          "description": "previous track",
          "suggested_key": "Alt+Shift+Comma"
+      },
+      "track-add": {
+         "description": "add current track to My Music",
+         "suggested_key": "Shift+MacCtrl+P"
       }
    },
    "permissions": [ "https://play.spotify.com/*"  ]
